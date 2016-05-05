@@ -1,0 +1,206 @@
+body {
+    background-color: floralwhite;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+}
+
+.column2 {
+    float: right;
+}
+
+.onehalf {
+    width: 50%;
+}
+
+.onethird {
+    width: 33%;
+}
+
+.onefourth {
+    width: 25%;
+}
+
+nav {
+    width: 800px;
+    height: 70px;
+    background-color: #848E5F;
+    margin: auto;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    margin: 5px 0px;
+}
+
+
+nav a {
+    text-decoration:none;
+    color:black;
+    margin: 5px;
+}
+
+nav input {
+    display: inline-block;
+    float: right;
+    margin: 25px 0px 0px 30px;
+    
+}
+
+#searchbutton {
+    margin: 17px -30px 0px 280px;
+    width: 35px;
+    height: 35px;
+}
+
+
+/* THIS IS FOR THE DROPDOWN MENUS*/ 
+
+
+<style>
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 26px 0px 0px 0px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #848E5F;
+    padding: 9px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: floralwhite;
+}
+
+
+
+/* THIS IS THE "ABOUT ME" HEADER */
+
+#aboutus {
+    width: 800px;
+    height: 130px;
+    background-color: white;
+    font-family: 'Times New Roman', 'Times', serif;
+    text-align: center;
+    font-size: 70px;
+    margin: auto;
+    margin-top: -92px;
+    color: #848E5F;
+}
+
+#bodyrow {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    padding-top: 1px;
+    background-color: white;
+    font-family: 'Times New Roman', 'Times', serif;
+    text-align: justify;
+    font-size: 14px;
+    color: black;
+}
+
+
+
+div img {
+    width: 350px;
+    height: 250px;
+    margin: 0px 0px 0px 20px;
+    image-orientation: center;
+}
+
+
+
+body a {
+    text-decoration: none;
+    color: #848E5F;
+    
+}
+
+
+.bodytext {
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 370px;
+    height: 250px
+}
+
+
+ul {
+    line-height: 16px;
+    margin: -25px 0px 0px 0px;
+}
+
+body h2 {
+    margin: 20px 20px;
+}
+
+.bodyinput {
+    margin: 0px 0px 0px 20px;
+}
+
+div section p input {
+    display: inline-text;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+footer {
+    padding: 20px;
+    font-size: 14px;
+    color: #848E5F;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
